@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitebg"
+    android:orientation="vertical"
+    tools:context=".ActivityAddData">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/googlebg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edittext_shape_cornered_gray"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edFname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:gravity="top"
+            android:hint="@string/enter_first_name"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edittext_shape_cornered_gray"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edLname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:gravity="top"
+            android:hint="@string/enter_last_name"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edittext_shape_cornered_gray"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:gravity="top"
+            android:hint="@string/enter_your_email"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edittext_shape_cornered_gray"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edcontactNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:gravity="top"
+            android:hint="@string/enter_your_contact_number"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edittext_shape_cornered_gray"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edDob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableEnd="@drawable/ic_calender_blue"
+            android:focusable="false"
+            android:fontFamily="sans-serif"
+            android:gravity="top"
+            android:hint="@string/enter_your_date_of_birth"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edittext_shape_cornered_gray"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edhobby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:gravity="top"
+            android:hint="@string/enter_your_hobby"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAddData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/btn_blue_cornered_login"
+        android:fontFamily="sans-serif"
+        android:text="@string/add_data"
+        android:textColor="@color/white" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

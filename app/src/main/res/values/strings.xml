@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GoogleSheetsAsBackend</string>
+    <string name="enter_first_name">Enter first name</string>
+    <string name="google_form">GOOGLE FORM</string>
+    <string name="enter_last_name">Enter last name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="add_data">Add Data</string>
+    <string name="enter_your_contact_number">Enter your contact number</string>
+    <string name="enter_your_date_of_birth">Enter your date Of birth</string>
+    <string name="enter_your_hobby">Enter your hobby</string>
+</resources>
